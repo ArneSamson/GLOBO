@@ -53,6 +53,7 @@ h2 {
   font-style: normal;
   margin: 20px;
   color: white;
+  margin-top: 75px;
 }
 
 .flexbox {
@@ -62,4 +63,27 @@ h2 {
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 75px;
+}
+
+p {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-weight: 100;
+  font-style: normal;
+  margin: 20px;
+  color: white;
+}
+
+img {
+  height: 200px;
+  border-radius: 5%;
+  margin: 20px;
+}
+
+.flexboxImage {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
